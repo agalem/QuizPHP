@@ -1,0 +1,194 @@
+body {
+    font-family: arial;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+a.edit {
+    text-align: right;
+    float: right;
+    font-size: 14px;
+    display: inline;
+    color: #d7d7d7;
+    height: 20px;
+}
+
+a.edit:hover  {
+    color: black;
+}
+
+p.edit {
+    float: right;
+    font-size: 14px;
+    display: inline;
+    color: #d7d7d7;
+}
+
+p.shadow {
+    font-size: 15px;
+    display: inline;
+    color: #d7d7d7;
+}
+
+p.question_rank {
+    color: red;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+p.warning {
+    font-size: 12px;
+    color: firebrick;
+}
+
+header {
+    border-bottom: 3px #f4f4f4 solid;
+}
+
+footer {
+    border-top: 3px #f4f4f4 solid;
+    text-align: center;
+    padding-top: 5px;
+}
+
+main {
+    padding-bottom: 20px;
+}
+
+a.start {
+    display: inline-block;
+    color: #666;
+    background: #f4f4f4;
+    border: 1px dotted #ccc;
+    padding: 6px 13px;
+    width: 95%;
+    text-align: center;
+    margin: auto;
+}
+
+a.add {
+    float: center;
+    display: inline-block;
+    color: #666;
+    background: white;
+    border: 1px dotted #ccc;
+    padding: 6px 13px;
+}
+
+a.add:hover {
+    background: #ccffcc;
+    color: black;
+}
+
+a.admin {
+    float: right;
+    display: inline-block;
+    color: #666;
+    background: white;
+    border: 1px dotted #ccc;
+    padding: 6px 13px;
+}
+
+a.admin:hover {
+    background: #ccffcc;
+    color: black;
+}
+
+a.delete {
+    float: center;
+    display: inline-block;
+    color: #666;
+    background: white;
+    border: 1px dotted #ccc;
+    padding: 6px 13px;
+}
+
+a.delete:hover {
+    background: #ccffcc;
+    color: black;
+}
+
+a.rank {
+    float: center;
+    display: inline-block;
+    color: #666;
+    background: white;
+    border: 1px dotted #ccc;
+    padding: 6px 13px;
+}
+
+a.rank:hover {
+    background: #ccffcc;
+    color: black;
+}
+
+a.back {
+    float: right;
+    display: inline-block;
+    color: #666;
+    background: white;
+    border: 1px dotted #ccc;
+    padding: 6px 13px;
+}
+
+a.back:hover {
+    background: #ccffcc;
+    color: black;
+}
+
+.current {
+    height: 50px;
+    padding: 10px;
+    background: #f4f4f4;
+    border: #ccc dotted 1px;
+    margin: 20px 0 10px 0;
+    font-size: 21px;
+}
+
+.image {
+    padding: 0;
+    margin: 0;
+    float: right;
+    width: 70%;
+    height: 70%;
+}
+
+label {
+    display: inline-block;
+    width: 180px;
+}
+
+input[type='text'] {
+    width: 97%;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+}
+
+input[type='number'] {
+    width: 50px;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+}
+
+@media only screen and (max-width:960px) {
+    .container {
+        width: 80%;
+    }
+    
+}
